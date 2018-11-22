@@ -2,7 +2,7 @@
     RewriteBase /shufflequotes/
 
     RewriteCond $1 !^(index\.php|images|css|js|robots\.txt|favicon\.ico)
-    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -f [END]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^.*$ - [L]
 
