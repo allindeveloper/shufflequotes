@@ -32,7 +32,7 @@ class Example extends REST_Controller {
         $this->methods['users_post']['limit'] = 100; // 100 requests per hour per user/key
         $this->methods['users_delete']['limit'] = 50; // 50 requests per hour per user/key
         $this->post = $_REQUEST;
-        $this->load->model('CustomerModel');
+        $this->load->model('QuotesModel');
     }
    
 
@@ -140,9 +140,9 @@ class Example extends REST_Controller {
         $this->set_response($message, REST_Controller::HTTP_NO_CONTENT); // NO_CONTENT (204) being the HTTP response code
     }
 
-    public function customers_get(){
+    public function quotes_get(){
         
-        $message = [$this->CustomerModel->getAll($data)];
+        $message = [$this->QuotesModel->getAll($data)];
         $this->set_response($message, REST_Controller::HTTP_OK);
 
     }

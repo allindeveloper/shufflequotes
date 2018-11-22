@@ -1,5 +1,5 @@
 <?php
-class CustomerModel extends CI_Model{
+class QuotesModel extends CI_Model{
 
 
 	public function __construct(){
@@ -8,7 +8,7 @@ class CustomerModel extends CI_Model{
      }
 
      public function getAll(){
-         $result = $this->db->get("customers");
+         $result = $this->db->get("quotes");
          return $result->result_array();
      }
 
