@@ -1,6 +1,15 @@
  RewriteEngine on
-    RewriteEngine %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^{.*}$ index.php/$1 [L]
+    RewriteBase /shufflequotes/
 
+    RewriteCond %{ENV:REDIRECT_STATUS} ^$
+    RewriteCond $1 !^(index\.php|images|css|js|robots\.txt|favicon\.ico)
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^.*$ - [L]
 
+    RewriteCond %{REQUEST_URI} !(.*)/$
+    # dont rewrite if there was posted here!
+    RewriteCond %{REQUEST_METHOD} !POST 
+    RewriteRule ^(.*[^/])$ $1/ [L,R=301]
+
+    RewriteRule ^(.*)$ ./index.php/$1 [L,QSA]
