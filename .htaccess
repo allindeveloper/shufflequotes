@@ -13,3 +13,7 @@
     RewriteRule ^(.*[^/])$ $1/ [L,R=301]
 
     RewriteRule ^(.*)$ ./index.php/$1 [L,QSA]
+
+    AllowOverride All
+   Order allow,deny
+   Allow from all
