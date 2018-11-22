@@ -22,11 +22,9 @@ Demo
 
 PHP version 5.6 or newer is recommended.
 
-To view random quotes
-`Get Random Quotes<https://shufflequotes.herokuapp.com/api/example/quotes/>`_
+To view random quotes `Get Random Quotes<https://shufflequotes.herokuapp.com/api/example/quotes/>`_
 
-To view a specific number of random quotes 
-`Get Specific Number of Quotes <https://shufflequotes.herokuapp.com/api/example/quotes/?id="A number Here"`_
+To view a specific number of random quotes `Get Specific Number of Quotes <https://shufflequotes.herokuapp.com/api/example/quotes/?id="A number Here"`_
 
 
 Report security issues to our `Security Panel <uchendubozz@gmail.com>`_ thank you.
