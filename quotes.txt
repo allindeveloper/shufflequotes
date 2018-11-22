@@ -1,0 +1,1445 @@
+# catwell's favorite quotes
+
+CREDIT:
+
+Many of those come from http://quotes.cat-v.org/programming/. Others 
+come from books I have read. I found the rest of them in various places 
+on the Internet.
+
+
+We don’t get a chance to do that many things, and every one should be really
+excellent. Because this is our life. And we’ve all chosen to do this with our
+lives. So it better be damn good. It better be worth it.
+ -- Steve Jobs
+
+People think focus means saying yes to the thing you’ve got to focus on. But
+that’s not what it means at all. It means saying no to the hundred other good
+ideas that there are. You have to pick carefully.
+ -- Steve Jobs
+
+If there is no solution, then there is no problem.
+ -- Les Shadoks
+
+There is no scientific method.
+ -- Lee Smolin, theoretical physicist
+
+I made a discovery today. I found a computer.
+Wait a second, this is cool. It does what I want it to.
+If it makes a mistake, it's because I screwed it up.
+Not because it doesn't like me...
+Or feels threatened by me...
+Or thinks I'm a smart ass...
+Or doesn't like teaching and shouldn't be here...
+Damn kid. All he does is play games. They're all alike.
+ -- Mentor, January 8, 1986
+
+It is better to be technically elegant with a higher learning curve, than to
+be easy to use, and technically crap. Layers of abstraction that serve to hide
+internals are never a good thing. Instead, the internals should be designed in
+a way such that they NEED no hiding.
+ -- Aaron Griffin, Arch Linux Overlord
+
+When in doubt, use brute force.
+ -- Ken Thompson
+
+Simplicity is prerequisite for reliability.
+ -- Dijkstra
+
+Beauty is more important in computing than anywhere else in technology because
+software is so complicated. Beauty is the ultimate defence against complexity.
+ -- David Gelernter, CS teacher at Yale
+
+Programming is not a zero-sum game. Teaching something to a fellow programmer
+doesn't take it away from you. I'm happy to share what I can, because I'm in it
+for the love of programming.
+ -- John Carmack
+
+In everything uniformity is undesirable. Leaving something incomplete 
+makes it interesting, and gives one the feeling that there is room for 
+growth.
+ -- In Idleness (japanese essay from the 14th century)
+
+In my opinion, perfection is not reached when there is nothing left to 
+add but when there is nothing left to remove. That means the perfection 
+of a thing and its essence are a single reality. But here is the real 
+challenge: how do you get to the essence of things?
+ -- Antoine de Saint-Exupéry
+
+The so-called "desktop metaphor" of today's workstation is instead an 
+"airplane-seat" metaphor. Anyone who has shuffled a lap full of papers 
+while seated between two portly passengers will recognize the 
+difference--one can see only a very few things at once.
+ -- Frederick Brooks, "No Silver Bullet"
+
+The building metaphor has outlived its usefulness. [...] Let us turn 
+nature and study complexity in living things. [...] The secret is that 
+it is grown, not built.
+ -- Frederick Brooks, "No Silver Bullet"
+
+You can be productive or safe, not both.
+ -- Rob Pike
+
+Eventually it all comes to this: expect nothing, get involved!
+ -- JL Mélenchon (Grand Journal)
+
+Nine people can't make a baby in a month.
+ -- Frederick Brooks, "The Mythical Man-Month"
+
+The best way to predict the future is to invent it.
+ -- Alan Kay
+
+Lua is the C of dynamic languages: lean, fast - and real men write their 
+own libraries.
+ -- Steve Donovan, on lua-l
+
+Artists work best alone. Work alone.
+ -- Steve Wozniak
+
+Predicting the future of the Internet is easy: anything it hasn’t yet 
+dramatically transformed, it will.  People, companies, investors and 
+even countries can’t stop this transformation. The only choice you have 
+is whether you join the side of innovation and progress or you don’t.
+ -- Chris Dixon, VC & entrepreneur
+
+The worst features [of a language] are the attractive nuisances, the 
+features that are both useful and dangerous.
+ -- Douglas Crockford (JSLint, JSON...)
+
+The problem with being a beginner is that you get a lot of practice 
+staying a beginner.
+ -- Alan Kay
+
+You can be an engineer and become a manager and get rich, or you can be 
+an engineer and stay an engineer and get rich.
+ -- Allen Baum, to Steve Wozniak
+
+A true friend will stab you in the front.
+ -- Oscar Wilde
+
+Bottomless wonders come from simple rules repeated without end.
+ -- Benoit Mandelbrot
+
+Bad programmers worry about the code. Good programmers worry about data 
+structures and their relationships.
+ -- Linus Torvalds
+
+Nobody should start to undertake a large project. You start with a small 
+trivial project, and you should never expect it to get large. If you do, 
+you'll just overdesign.
+ -- Linus Torvalds
+
+Some specious value of "correctness" is often irrelevant because it 
+doesn't matter. While performance almost always matters.
+ -- Linus Torvalds
+
+There really are only two acceptable models of development: "think and 
+analyze" or "years and years of testing on thousands of machines". Those 
+two really do work.
+ -- Linus Torvalds
+
+There is one quality that cannot be purchased in this way, and that is 
+reliability. The price of reliability is the pursuit of the utmost 
+simplicity. It is a price which the very rich find most hard to pay.
+ -- Tony Hoare (QuickSort, CSP)
+
+Debugging time increases as a square of the program's size.
+ -- Chris Wenham
+
+Code never lies, comments sometimes do.
+ -- Ron Jeffries (XP, Agile Manifesto)
+
+Software sucks because users demand it to.
+ -- Nathan Myhrvold, former Microsoft CTO
+
+The only sin is to make a choice without knowing you are making one.
+ -- Jonathan Shewchuk, CS teacher at Berkeley
+
+One of the big lessons of a big project is you don't want people that 
+aren't really programmers programming, you'll suffer for it!
+ -- John Carmack
+
+Everything should be built top-down, except the first time.
+ -- Alan Jay Perlis (CS)
+
+Optimization hinders evolution.
+ -- Alan Jay Perlis
+
+Everyone can be taught to sculpt: Michelangelo would have had to be 
+taught how not to. So it is with the great programmers.
+ -- Alan Jay Perlis
+
+Fools ignore complexity. Pragmatists suffer it. Some can avoid it. 
+Geniuses remove it.
+ -- Alan Jay Perlis
+
+A year spent in artificial intelligence is enough to make one believe in 
+God.
+ -- Alan Jay Perlis
+
+When someone says "I want a programming language in which I need only 
+say what I wish done," give him a lollipop.
+ -- Alan Jay Perlis
+
+Dealing with failure is easy: Work hard to improve. Success is also easy 
+to handle: You've solved the wrong problem. Work hard to improve.
+ -- Alan Jay Perlis
+
+It goes against the grain of modern education to teach children to 
+program. What fun is there in making plans, acquiring discipline in 
+organizing thoughts, devoting attention to detail and learning to be 
+self-critical?
+ -- Alan Jay Perlis
+
+In seeking the unattainable, simplicity only gets in the way.
+ -- Alan Jay Perlis
+
+Premature optimization is the root of all evil.
+ -- Don Knuth
+
+Premature generalization is the other root of all evil.
+ -- Keith Rarick
+
+Written by a C++ developer with Stockholm Syndrome: "Complex programming 
+problems require complex languages."
+ -- @agentdero
+
+The good thing about reinventing the wheel is that you can get a round 
+one.
+ -- Douglas Crockford, to Dave Winer, about JSON vs. XML
+
+Probably my job description would be just to find something to make life 
+better. Or have some new idea of new stuff that replaces old stuff. Try 
+to make it better. Whatever it is that's wrong, that takes time, that 
+causes bugs.
+ -- Ken Thompson (at Google)
+
+[C++] does a lot of things half well and it's just a garbage heap of 
+ideas that are mutually exclusive.
+ -- Ken Thompson
+
+I have determined that the complexity class of most C++ programs is 
+NP-Fucked.
+ -- Joël Perras (@jperras)
+
+Give a man a fish, feed him for a day. Teach a man to fish, and you'll 
+have to answer fucking fish questions the rest of your life.
+ -- Steve Harris (Terracotta)
+
+It's funny, but I used to get really pissed off at Larry Wall for 
+calling Java programmers "babies". It turns out the situation is a 
+little more complicated than that... but only a little.
+ -- Steve Yegge
+
+I am very interested in obsoleting GNU bloatware: it's crap. From a 
+purely technical perspective, the FSF _sucks_at_writing_code_. They're 
+horrible, and their stuff should die. That's why I got into BusyBox in 
+the first place: I want GNU-less Linux.
+ -- Rob Landley
+
+Sometimes, the elegant implementation is just a function. Not a method. 
+Not a class. Not a framework. Just a function.
+ -- John Carmack
+
+Java is like a variant of the game of Tetris in which none of the pieces 
+can fill gaps created by the other pieces, so all you can do is pile 
+them up endlessly.
+ -- Steve Yegge
+
+I have discovered that there are two types of command interfaces in the 
+world of computing: good interfaces and user interfaces. The essence of 
+user interfaces is parsing: converting an unstructured sequence of 
+commands, in a format usually determined more by psychology than by 
+solid engineering, into structured data. [...] This situation is a 
+recipe for disaster.
+ -- Dan Bernstein
+
+The Internet isn't really a technology, it's a belief system - a 
+philosophy. [...] The belief system of the Internet is that everyone 
+should have the freedom to connect, the freedom to innovate and the 
+freedom to hack without asking permission. No one can know the whole of 
+it; it cannot be centrally controlled and the innovation happens in 
+small groups on the "edges" of the network.
+ -- Joi Ito (MIT Media Lab)
+
+It is now usually cheaper to just try something than to sit around and 
+try to figure out whether to try something. [...] The compass has 
+replaced the map and the idea of "rough consensus running code" has 
+spread from the ideology behind network architecture to a fundamental 
+philosophy for startup companies and the "lean startup" movement.
+ -- Joi Ito (MIT Media Lab)
+
+Hobbyists are the ones who invent new stuff, almost exclusively. [...] A 
+thousand professional physicists picked at random probably wouldn't 
+fundamentally change physics the way Albert Einstein did as a hobby 
+while working as a patent clerk. [...] Hobbyists are artists as much as 
+engineers. They get writer's block. They have portfolio pieces showing 
+cool things they've done, which are generally more interesting than 
+their resume listing experience and training. Hobbyists go off on 
+tangents ALL THE TIME, that's how they come up with new stuff nobody's 
+ever done before, with sturgeon's law in full force: 90% of that new 
+stuff is crap, but a tiny fraction of it is spectacular. [...] A 
+hobbyist generally responds to "What's it good for?" with "Let's find 
+out!".
+ -- Rob Landley
+
+In the physical world, an engineer’s job is to build a project to spec. 
+But in the world of software, sometimes it’s the case that you start 
+building a bridge, then halfway through realize what you really need is 
+a boat. As developers, we can make that switch because software is, 
+well, soft.
+ -- Adam Wiggins (CTO, Heroku)
+
+It's too easy to fall out of touch with the code when you're managing a 
+product from a higher level. When you don't understand the code, you 
+won't understand why a change takes as long as it does, or how to 
+increase the speed of change. The code affects long term flexibility 
+too. If the code is hard to change, a feature will be hard to change. 
+That's a product level issue.
+ -- Ryan Singer (37signals)
+
+People who don’t take risks generally make about two big mistakes a 
+year. People who do take risks generally make about two big mistakes a 
+year.
+ -- Peter Drucker, quoted by Chad Dickerson (Etsy)
+
+It is nice to know the dictionary definition for the adjective "elegant" 
+in the meaning "simple and surprisingly effective".
+ -- Edsger W. Dijkstra
+
+Simplicity is a great virtue but it requires hard work to achieve it and 
+education to appreciate it. And to make matters worse: complexity sells 
+better. The computing industry is not the only one that has discovered 
+that sore truth: so has the academic world. If you deliver a lecture 
+that is crystal clear from the beginning to end, your audience feels 
+cheated and mutters while leaving the lecture hall "That was all rather 
+trivial, wasn't it?". One of our learned journals has rejected a 
+beautiful paper of mine because the solution it presented was too simple 
+to be of academic interest and I am waiting for the rejection of a paper 
+on the grounds that it is too short.
+ -- Edsger W. Dijkstra
+
+He is someone extraordinarily gifted, able to tackle any mathematical or 
+even scientific problem, and most people with these qualities tend not 
+to focus. Gérard Berry, schockingly, kept focused on his research topic 
+(synchronous systems) from the day he knew that was it. It was not easy 
+at first, nobody took him seriously.
+ -- Jean Vuillemin
+
+The art of programming is the skill of controlling complexity.
+ -- Marijn Haverbeke (Eloquent JavaScript)
+
+Everyone has a plan 'till they get punched in the mouth.
+ -- Mike Tyson, quoted by Adam Wiggins
+
+The plan was (a) to make a crappy initial version of Arc, (b) use that 
+for a while in real applications, then (c) go back and write a complete, 
+cleaned up language spec, and (d) use that as the basis of a fairly good 
+implementation.
+ -- Paul Graham
+
+I dislike "flag" arguments that are intended to change the behavior of a 
+method in some big way. [...] The call would be more readable if the API 
+had separate methods: one for each flag value.
+ -- Guido van Rossum
+
+Entreprise-friendly is usually when the really smart people lose 
+interest and the people of more mediocre skills have to somehow fend for 
+themselves.
+ -- Guido van Rossum
+
+There is no contemporary problems requiring millions of lines of code. 
+Instead there are careless programmers, bad managers, or impossible 
+requirements for compatibility.
+ -- Chuck Moore
+
+[When asked: "How do you define success in terms of your work?"]
+An elegant solution.
+ -- Chuck Moore
+
+I'm amazed that software written in the 1970s hasn't/can't be rewritten. 
+One reason might be that in those days software was exciting; things 
+being done for the first time; programmers working 18-hour days for the 
+joy of it. Now programming is a 9-5 job as part of a team working to a 
+schedule; not much fun.
+ -- Chuck Moore
+
+Lisp did not address I/O. In fact, C did not address I/O and because it 
+didn't, it needed an operating system. Forth addressed I/O from the very 
+beginning.
+ -- Chuck Moore
+
+The critical skill grad students have to master is noticing something so 
+obvious that no one else has noticed it before.
+ -- Matt Might
+
+I think the root of your mistake is saying that macros don't scale to 
+larger groups. The real truth is that macros don't scale to stupider 
+groups.
+ -- Paul Graham
+
+Two ranchers, a Canadian and an American, meet at a Cattle Convention. 
+The American boasts “My ranch is so big, I can git’ in my truck and 
+drive for a day in any direction, and I’m still on ma’ propuh-ty.”
+The Canadian nods in sympathy. “I used to have a truck just like that.”
+ -- Raganwald
+
+Avoid OO whenever possible. Contrary to common belief, most problems are 
+better solved in non-OO ways.
+ -- Anselm R. Garbe
+
+Some people, when confronted with a reliability problem, think, “I know, 
+I’ll build a distributed system.” Now they have n² problems.
+ -- Keith Rarick
+
+Simplicity is often in tension with convenience. Convenience often wins 
+in the short term, but simplicity always wins in the long term. The real 
+trick is finding a way to get both simplicity and convenience. That is 
+the secret sauce and it’s SO worth the effort.
+ -- Keith Rarick
+
+Python is not a functional language dfor a very good reason: Python is 
+very pragmatic. It lets you mess around with state, fiddle with the 
+OS... All kinds of things that you can very easily do in Python, but 
+somehow are incredibly hard in a beautiful language like Haskell.
+ -- Guido Van Rossum
+
+My opinion is that OOP is one of the great frauds perpetrated on the 
+community.
+ -- Peter Weinberger
+
+I'd say Kernighan emphasized ease of learning; Weinberger, soundness of 
+implementation; and I, utility.
+ -- Alfred Aho (on AWK)
+
+It's not much of an exaggeration to say that as a programmer either I am 
+trying to decide what to do next, or I am debugging. Everything else 
+takes hardly any time.
+ -- Peter Weinberger
+
+The best path to high-quality software is talented experts who share a 
+pretty clear sense of what they want to produce. I have no idea how to 
+produce good software without talented programmers.
+ -- Peter Weinberger
+
+I usually consider that if something needs comments, it is not well 
+written. For me, a comment is almost a note like "I should try to 
+rewrite this code later." I think clear code is much more readable than 
+commented code.
+ -- Roberto Ierusalimschy
+
+Design for minimal resources, and you may be pleasantly surprised to see 
+your tool used in many contexts that you did not have as a primary goal 
+and some that you did not even know existed. When we discuss the 
+inclusion of a feature in Lua, we ask ourselves: "OK, but will it run in 
+a microwave oven?"
+ -- Luiz Henrique de Figueiredo
+
+The effect of individual differences will far outweigh any effect of the 
+programming language [on productivity].
+ -- Tom Love
+
+If I revisited [Objective-C] today, I might even go as far as to remove 
+[inheritance]. Inheritance just isn't all that important. Encapsulation 
+is OOP's lasting contribution.
+ -- Brad Cox
+
+I'm focused on SOA and JBI today. They support encapsulation as much as 
+traditional OOP. Even better; they encapsulate not just data + 
+procedures, but even the entire thread of control that powers them.
+ -- Brad Cox
+
+The big change was ubiquitous networking, which opened up new levels of 
+integration larger than the Unix process space. In SOA for example, the 
+Internet is like the cabling between the components of a HiFi system, 
+with services on disparate servers functioning like the components 
+themselves.
+ -- Brad Cox
+
+[We had] exactly the problem gate-level designers face when designing 
+big chips. Their solution? Encapsulate a bunch of gates inside a chip. 
+I'll handle chip design. You solder them together. Objective-C was 
+precisely that notion. Of course [...] languages are tools, things to be 
+picked up or laid aside according to the problem at hand.
+ -- Brad Cox
+
+It's all about doing more with less. It's not about doing more with more 
+with a simple layer on top.
+ -- Anders Hejlsberg
+
+Unfortunately, RUP became understood as a prescriptive methodology like 
+cooking food. None of us who have developed software would even dream 
+that you really do it step by step, following a checklist.
+ -- Ivar Jacobson
+
+The industry is very immature. It's a little more mature than it was 20 
+years ago, but we build much more complex systems today.
+ -- Ivar Jacobson
+
+Unfortunately, a lot of people who were jealous of our initial success 
+got involved in the second version. They felt they could have done just 
+as well as we did. As things turned out, they couldn't. [...] So UML 2.0 
+became a bloated monstruosity. [...] It shows the limitations of trying 
+to do creative activity by commitee.
+ -- James Rumbaugh
+
+The sad thing is that most of the problems [Brooks] cites in [The 
+Mythical Man-Month] are still happening today. [...] Maybe this is a 
+good way to state the main problem facing the computing field: most of 
+its practitioners have no understanding of computing history and so 
+[...] they are condemned to repeat the same mistakes.
+ -- James Rumbaugh
+
+I think [using UML to generate implementation code] is a terrible idea. 
+[...] If you can generate code from a model, then it is a programming 
+language. And UML is not a well-designed programming language.
+ -- James Rumbaugh
+
+Don't believe the nonsense about inventing a better mousetrap: it takes 
+serious marketing to get something adopted.
+ -- James Rumbaugh (about concurrent programming languages)
+
+Perl 5 made much the same mistake that languages like Ruby are currently 
+making with monkey typing (sic), [...] which results in spookey 
+action-at-a-distance.
+ -- Larry Wall
+
+[Computers] really don't understand when they should ask for feedback. 
+That's because they don't understand when they should be unsure.
+ -- Larry Wall
+
+When OOP came onto the scene and most people said it is what comes after 
+structured methods, to me that made no sense. It was part of structured 
+methods right from the beginning. Structured programming was for 
+programming-in-the-small aspects, and OOP was for 
+programming-in-the-large, but there was no gap between the two. Having 
+read Dahl's and Hoare's text, I knew this was the right way to program.
+ -- Bertrand Meyer
+
+I have never seen a breakthrough product in software that was built by 
+more than 10 people, and usually it is somewhere between 2 and 5.
+ -- Bertrand Meyer
+
+Nowadays, most of the code written has an inheritance structure, which 
+is encouraged in the hope that it will bring clarity to the code. 
+However [...] this is not beautiful code; it is bad code with a 
+convoluted design. If you cannot tell what the code does by glancing at 
+the naming conventions and several code lines, then the code is too 
+complicated.
+ -- Adam Kolawa
+
+Bill Gosper once said: "Data is just a dumb kind of programming." The 
+corollary, of course, is that code is just a smart kind of data, data 
+designed to trigger processors into performing certain useful or amusing 
+acts.
+ -- Charles Petzold
+
+Is the lack of [runtime type checking] good enough to be called 
+"beautiful code"? After working with it for over five years, yes, I 
+think it is. It keeps easy hacks from springing up within the kernel and 
+forces everyone to be very exact in their logic, never falling back on 
+any checks for types that might prevent bugs from happening later.
+ -- Greg Kroah-Hartman
+
+Any problem in computer science can be solved with another layer of 
+indirection, but that usually will create another problem.
+ -- David Wheeler
+
+[Unix is] an operating system designed primarily for technical users 
+[that] know better than OS designers what their own needs are.
+ -- Eric S. Raymond
+
+The Unix philosophy is bottom-up, not top down. It is pragmatic and 
+grounded in experience. It is not to be found in official methods and 
+standards, but rather in the implicit hard-reflexive knowledge, the 
+expertise that the Unix culture transmits.
+ -- Eric S. Raymond
+
+Controlling complexity is the essence of computer programming.
+ -- Brian Kernighan
+
+The only way to write complex software that won't fall on its face is to 
+hold its global complexity down, to build it out of simple parts 
+connected by well-defined interfaces, so that most problems are local 
+and you can have some hope of upgrading a part without breaking the 
+whole.
+ -- Eric S. Raymond
+
+Hardwiring policy and mechanism together has two bad effects: it makes 
+policy rigid and harder to change in response to user requirements, and 
+it means that trying to change policy has a strong tendency to 
+destabilize the mechanisms.
+ -- Eric S. Raymond
+
+The original HTML documents recommend "be generous in what you accept", 
+and it has bedeviled us ever since because each browser accepts a 
+different superset of the specifications. It is the specifications that 
+should be generous, not their interpretation.
+ -- Doug McIlroy
+
+Make it run, then make it right, then make it fast.
+ -- Kent Beck
+
+Rushing to optimize before the bottlenecks are known may be the only 
+error to have ruined more designs than feature creep.
+ -- Eric S. Raymond
+
+I remember one development manager at Bellcore who fought against the 
+"requirements" culture years before anybody talked about "rapid 
+prototyping" or "agile development". He wouldn't issue long 
+specifications; he'd lash together some combination of shell scripts and 
+awk code that did roughly what was needed, [have] the customers [...] 
+tell him whether or not they liked it. If they did, he would say "you 
+can have it industrial strength so-many-months from now at such-and-such 
+cost". His estimates tended to be accurate, but he lost out in the 
+culture to managers who believed that requirements writers should be in 
+control of everything.
+ -- Mike Lesk
+
+The Unix tradition includes a healthy distrust of "one true way" 
+approaches to software design or implementation. It embraces multiple 
+languages, open extensible systems, and customization hooks everywhere.
+ -- Eric S. Raymond
+
+When you see the right thing, do it. This may look like more work in the 
+short term, but it's the path of least effort in the long run. If you 
+don't know what the right thing is, do the minimum necessary to get the 
+job done, at least until you figure out what the right thing is.
+ -- Eric S. Raymond
+
+Later, [PDP-10 hackers] became the founding cadre of the IETF and 
+originated the tradition of standardization through RFCs. Socially, they 
+were young, exceptionally bright, almost entirely male, dedicated to the 
+point of addiction, and tended to have streaks of stubborn 
+nonconformism. [They] had a vision of computers as community-building 
+devices.
+ -- Eric S. Raymond
+
+The pipe was technically trivial, but profound in its effect. However, 
+it would not have been trivial without the fundamental unifying notion 
+of the process as an autonomous unit of computation, with process 
+control being programmable.
+ -- Doug McIlroy
+
+The day Linux gives the Mac diagnostic that you can't open a file 
+because you don't have the application is the day Linux becones 
+non-Unix.
+ -- Doug McIlroy
+
+There are two ways of constructing a software design. One is to make it 
+so simple that there are obviously no deficiencies; the other is to make 
+it so complicated that there are no obvious deficiencies. The first 
+method is far more difficult.
+ -- C.A.R. Hoare
+
+Doug McIlroy's advice to "do one thing well" is usually interpreted as 
+being about simplicity. But it is also, implicitly and at least as 
+importantly, about orthogonality.
+ -- Eric S. Raymond
+
+One single bug-prone glue layer is not the worst fate that can befall a 
+design. A designer who is aware that the glue layer exists, and tries to 
+organize it into a middle layer around its own set of data structures or 
+objects, can end up with *two* levels of glue: one above the midlayer 
+and one below.
+ -- Eric S. Raymond
+
+All OO languages show some tendency to suck programmers into the trap of 
+excessive layering.
+ -- Eric S. Raymond
+ 
+There is more vocal criticism of OO in the Unix world than orthodoxy 
+permits elsewhere; Unix programmers know when *not* to use OO; and when 
+they do use OO languages, they spend more effort trying to keep their 
+object designs uncluttered.
+ -- Eric S. Raymond
+
+Commercial Unix distributions that have [suppressed] the BUGS section or 
+[euphemized it] have invariably fallen into decline.
+ -- Eric S. Raymond
+
+Using the Unix file system as a database is a tactic other applications 
+with simple database requirements might do well to emulate. Good reasons 
+not to do it are more likely to have to do with the database keys not 
+naturally looking like filenames than they are with any performance 
+problems.
+ -- Eric S. Raymond
+
+If you want transparent code, the most effective route is simply not to 
+layer too much abstraction over what you are manipulating with the code.
+ -- Eric S. Raymond
+
+If we believe in data structures, we must believe in independent (hence 
+simultaneous) processing. For why else would we collect items within a 
+structure? Why do we tolerate languages that give us the one without the 
+other?
+ -- Eric S. Raymond
+
+Threading is a performance hack. [They] do not reduce global complexity 
+but rather increase it, and should therefore be avoided save under dire 
+necessity.
+ -- Eric S. Raymond
+
+If you can use limited shared memory and semaphores, asynchronous I/O 
+using SIGIO or poll/select rather than threading, do it that way.
+ -- Eric S. Raymond
+
+[The Unix tradition of program interface design] has an inner logic to 
+it which is worth learning and understanding. It reflects heuristics 
+accumulated over Unix's long history about ways to do effective 
+communication both with human beings and with other programs.
+ -- Eric S. Raymond
+
+Consider your tradeoffs carefully, and consider them from the user's 
+point of view. The bias implied by the Rule of Least Surprise is a good 
+one to hold consciously, mainly because interface designers have an 
+unconscious tendency to be too clever for the user's good.
+ -- Eric S. Raymond
+
+The design of consumer software [since 1984 has] become heavily skewed 
+toward GUIs. While this is a good choice for novice and casual users 
+that constitute most of the market, it also exacts hidden costs on more 
+expert users.
+ -- Eric S. Raymond
+
+Programs should request confirmation only when there is good reason to 
+suspect that the answer might be "no no no!"
+ -- Eric S. Raymond
+
+Reading profiler results is something of an art. There are a couple 
+(sic) of recurring problems: one is instrumentation noise, another is 
+the effect of imposed external latencies, and a third is overweighting 
+of upper nodes in the call graph.
+ -- Eric S. Raymond
+
+The MIT and New Jersey philosophies have analogs within the Unix design 
+tradition itself. One strain of Unix thinking emphasizes small sharp 
+tools, starting designs from zero and interfaces that are simple and 
+consistent. This point of view has been most famously championed by Doug 
+McIlroy. Another strain emphasizes doing simple implementations that 
+work and that ship quickly, even if the methods are brute-force and some 
+edge cases have been punted. Ken Thompson's code and his maxims about 
+programming have often seemed to lean in this direction. The tension 
+between these approaches arises precisely because one can sometimes get 
+a simpler interface if one is willing to pay implementation complexity 
+for it, or vice versa.
+ -- Eric S. Raymond
+
+You can cut accidental complexity by noticing that there is a simpler 
+way to do things. You can cut optional complexity by making 
+context-dependent judgements about what features are worthwhile. You can 
+only cut essential complexity by having an epiphany, fundamentally 
+redefining the problem you are addressing.
+ -- Eric S. Raymond
+ 
+The reason that vi and emacs never caught on among old-school Unix 
+programmers is that they are *ugly*. This complaint may be "old Unix" 
+speaking, but had it not been for the singular taste of old Unix, "new 
+Unix" would not exist.
+ -- Doug McIlroy
+
+My ideal for the future is to develop a filesystem remote interface (a 
+la Plan 9) and then have it implemented across the Internet as the 
+standard rather than HTML. The would be ultimate cool.
+ -- Ken Thompson
+
+This is why you spent all that time learning to program: you can fix 
+things. You can make new and amazing things. Don't take that ability 
+lightly.
+ -- James Hague
+
+In many ways, the end result is unimportant – it’s really just the 
+excuse for the whole experience. It’s why I started Linux to begin with 
+– sure, I kind of needed an OS, but I needed a *project* to work on more 
+than I needed the OS. [...] My model is kind of a reverse “end result 
+justifies the means”. Hell no, that’s the stupidest saying in the 
+history of man. [...] It’s simply not the end that matters at all. It’s 
+the means – the journey. The end result is almost meaningless.
+ -- Linus Torvalds
+
+I've never found the idea of depending on a huge C++ library 
+particularly attractive for my projects. Admittedly, I _do_ have an 
+aversion to 'enterprise-level' programming.
+ -- Mike Pall
+
+I do not fear computers. I fear the lack of them.
+ -- Isaac Asimov
+
+A complex system that works is invariably found to have evolved from a 
+simple system that worked.
+ -- John Gall
+
+I think I've been able to reach my goals on the internet better than 
+most people. The fact that I'm very clear about my opinions is probably 
+part of it. I hate that whole "victim philosophy". The truth shouldn't 
+be sugarcoated.
+ -- Linus Torvalds
+
+For those of you who think we have been engaged in steady progress, in 
+some form of Darwinian process that are making things better for us, 
+it's actually quite the opposite.
+ -- Alan Kay
+
+Technology happens, it's not good, it's not bad. Is steel good or bad?
+ -- Andrew Grove
+
+Startup advice overheard: you have too many hipsters, you won't scale 
+like that. Hire some fat guys who know C++.
+ -- Jay Kreps (LinkedIn)
+
+We should have some ways of coupling programs like garden hose--screw in 
+another segment when it becomes necessary to massage data in another 
+way. This is the way of IO also.
+ -- Doug McIlroy
+
+Perhaps I'm a philistine about types but I've never found that model 
+particularly expressive.
+ -- Rob Pike
+
+The following data structures are a complete list for almost all 
+practical programs: array, linked list, hash table, binary tree.
+ -- Rob Pike
+
+Data dominates. If you've chosen the right data structures and organized 
+things well, the algorithms will almost always be self-evident. Data 
+structures, not algorithms, are central to programming.
+ -- Rob Pike
+
+Algorithms, or details of algorithms, can often be encoded compactly, 
+efficiently and expressively as data. [...] Code and data are the same, 
+or at least they can be. How else can you explain how a compiler works?
+ -- Rob Pike
+
+I think you have to open the objects and open your methods. I think that 
+this idea of hiding in layers of abstraction everything about the 
+details has, in fact, pretty much run its course now. I think the idea 
+that we can make these sorts of black box devices that we only know 
+about the shell of and have no knowledge of the internal workings of is 
+in fact a deep mistake. Because it turns out that in order to be able to 
+reason about how the system is actually working, we have to have 
+knowledge about what is inside the black box.
+ -- Richard Cook (on resilience of complex systems)
+
+Well, I'm an old-fashioned guy. And I also happen to believe in history. 
+The lack of interest, the disdain for history is what makes computing 
+not-quite-a-field.
+ -- Alan Kay
+
+The Internet was done so well that most people think of it as a natural 
+resource like the Pacific Ocean, rather than something that was 
+man-made. When was the last time a technology with a scale like that was 
+so error-free? The Web, in comparison, is a joke. The Web was done by 
+amateurs.
+ -- Alan Kay
+
+Tell everyone your startup idea. [...] The idea thief has no passion.
+ -- Rob Walling
+
+People like Leibniz and Babbage and Lovelace and Turing and von Neumann 
+understood from the beginning that a computer wouldn't just be another 
+steam engine or toaster -- that, because of the property of universality 
+(whether or not they called it that), it's difficult even to talk about 
+computers without also talking about ourselves.
+ -- Scott Aaronson
+
+When your hammer is C++, everything begins to look like a thumb.
+ -- Steve Haflich
+
+Beginner: "Threads are hard." Intermediate: "Don't fear multithreading." 
+Expert: "Threads are hard."
+ -- Damien Katz
+
+The only reason to have unit tests is to make sure that code that 
+already works doesn’t break. Writing tests first, or writing code to the 
+tests is ridiculous. If you write to the tests before the code, you 
+won’t even know what the edge cases are.
+ -- Chad Okere
+
+What children do well and adults forget about: constantly testing 
+boundaries.
+ -- Subbu Allamaraju
+
+Only ugly languages become popular. Python is the one exception.
+ -- Knuth
+
+If you believe "pragmatism" and "theory" are in opposition, you 
+understand neither.
+ -- Paul Snively
+
+Simplifying code is like diet and exercise: the result is healthy and 
+runs faster. Loop unrolling is plastic surgery: the result does not age 
+well and winds up making things _worse_ after a while. Don't optimize. 
+Simplify.
+ -- Rob Landley
+
+A way to handle design vs. implementation is to see the work as 
+components. Design is the boundaries, implementation is the contents.
+ -- Ryan Singer
+
+When I was a young Erik, when I was a fundamentalist functional 
+programmer, I would say: "Of course, you're using mutable state, you 
+should not do that! Use Haskell or a real language and this won't 
+happen." But OTOH, now that I write code for a living, I kind of like 
+imperative programming. You can get stuff done, you know... The Real 
+World is imperative, so I think we need to embrace side effects.
+ -- Erik Meijer
+
+Functional "programming" is a tool for thought. Imperative programming 
+is a tool for hackers.
+ -- Erik Meijer
+
+Don't ever let anyone tell you that fork(2) is bad. Thirty years from 
+now, there will still be a fork(2) and a pipe(2) and a exec(2) and smart 
+people will still be using them to solve hard problems reliably and 
+predictably, just like they were thirty years ago.
+ -- Ryan Tomayko
+
+These days I write code because (and when) I enjoy it and I think it'll 
+be useful to me or to my fellow hackers; if I decide I'd enjoy something 
+else more, I'll do that instead.  The new users can go and fuck 
+themselves.
+ -- Daniel Barlow
+
+First you learn the value of abstraction, then you learn the cost of 
+abstraction, then you're ready to engineer.
+ -- Kent Beck
+
+Our job is not just making things. Believe it or not, that's the easy 
+part. Our job is to figure out whether something should be made, how 
+it's made and convice someone, whether that's a client, a co-worker, a 
+manager or a VC, that we've made the right choice. That's design.
+ -- Mike Monteiro
+
+Dependency hygiene trumps code reuse.
+ -- Rob Pike
+
+Erlang is the culmination of twenty-five years of correct design 
+decisions in the language and platform. Whenever I've wondered about how 
+something in Erlang works, I have never disappointed in the answer. I 
+almost always leave with the impression that the designers did the 
+“right thing.” I suppose this is in contrast to Java, which does the 
+pedantic thing, Perl, which does the kludgy thing, Ruby, which has two 
+independent implementations of the wrong thing, and C, which doesn't do 
+anything.
+ -- Evan Miller
+
+It's pretty easy to spot that something is not flexible enough. Spotting 
+that it is too flexible can take years.
+ -- Martin Sustrik
+
+0.01: The factor of human beings who can program
+0.001: The factor of human beings who can program concurrently
+0.0001: The factor of human beings who can program distributively
+ -- Jesper Louis Andersen
+
+Sometimes correctness trumps speed. Sometimes it is the other way around.
+ -- Jesper Louis Andersen
+
+Idempotence is your key to network programming.
+Protocol design is your key to network programming.
+Sun RPC is usually not the solution. Corollary: HTTP requests neither.
+ -- Jesper Louis Andersen
+
+In a distributed system, the important part is the messages. What 
+happens inside a given node is uninteresting. Especially what 
+programming language it is written in.
+ -- Jesper Louis Andersen
+
+There is something very American about Feynman breaking into safes 
+during the Manhattan Project. It's hard to imagine the authorities 
+having a sense of humor about such things over in Germany at that time. 
+Maybe it's not a coincidence.
+Hackers are unruly. That is the essence of hacking. And it is also the 
+essence of Americanness. It is no accident that Silicon Valley is in 
+America, and not France, or Germany, or England, or Japan. In those 
+countries, people color inside the lines.
+ -- Paul Graham
+
+We reject kings, presidents and voting. We believe in rough consensus 
+and running code.
+ -- David Clark, IETF
+
+I'd like to stand for simplicity in Programming Languages. The key thing 
+to remember is that a PL is a tool, and that the users of that tool need 
+to master it. So the average programmer using a language should know and 
+understand the entire language.
+ -- David MacQueen, Milner Symposium 2012
+
+Make new developers do code reviews.
+ -- Alex Gaynor
+
+The key in making great and growable systems is much more to design how 
+its modules communicate rather than what their internal properties and 
+behaviors should be.
+ -- Alan Kay
+
+A wise person knows when to ignore his duties and improvise. Rules and 
+incentives may make things better in the short run, but they create a 
+downwards spiral that makes them worse in the long run.
+ -- Barry Schwartz
+
+Who is the CEO? The one bringing vision and culture.
+ -- Le Camping
+
+The world moves forward on those who are dissidents. Because without 
+dissent there is no creativity.
+ -- Steve Blank
+
+- How long to develop this feature?
+- How long does it take to catch a fish?
+ -- @freekl, Twitter
+
+Google has found that the most innovative workers — also the “happiest,” 
+by its definition — are those who have a strong sense of mission about 
+their work and who also feel that they have much personal autonomy.
+ -- Steve Lohr (New York Times)
+
+We are defined by what we make time to do, not by what we do when we 
+have time.
+ -- Kate Matsudaira
+
+What I cannot create, I do not understand.
+ -- Richard Feynman
+
+[Nothing lasts. Nothing is finished. Nothing is perfect.] Accepting the 
+world as imperfect, unfinished, and transient, and then going deeper and 
+celebrating that reality, is something not unlike freedom.
+ -- Richard Powell on Wabi Sabi
+
+Not all products can be the hero. Some play supporting roles. Some have 
+bit parts. People need to understand your character’s role. It can’t 
+have too many dimensions. Choose wisely. Don’t confuse. Don’t be too 
+greedy.
+ -- Ev Williams
+
+In most languages, an array with n elements normally has those elements 
+numbered with subscripts ranging from 1 to n inclusive. Not so in C.
+ -- Andrew Koenig
+
+It appears to be a quite general principle that, whenever there is a 
+randomized way of doing something, then there is a nonrandomized way 
+that delivers better performance but requires more thought.
+ -- E.T. Jaynes
+
+If you don't respect inherent complexity, you create accidental complexity.
+ -- David Herman
+
+You know what architecture is? It is the art of drawing lines.
+ -- Uncle Bob Martin
+
+It's not the consequence that makes a problem important, it is that you 
+have a reasonable attack. [...] Most great scientists know many 
+important problems. They have something between 10 and 20 important 
+problems for which they are looking for an attack. And when they see a 
+new idea come up, one hears them say ``Well that bears on this 
+problem.'' They drop all the other things and get after it.
+ -- Richard Hamming
+
+The copyright industry is digging a grave for the Internet. They don't 
+take into account the public benefits of a free Internet. The problem 
+is that old people are running the companies. They know how you made 
+money before and they don't want to change. They're like the Amish: 
+they don't want electricity, they know how to make do without 
+electricity.
+ -- Peter Sunde
+
+I think software is getting worse and worse and worse with time. It's 
+not that we cannot do amazing things with computers, we can! But when
+they don't work, we don't understand why they don't work. In the past,
+when you had a program that didn't work, you can look at it. Now, you
+ask Google.
+ -- Joe Armstrong
+
+Sometimes, changing one line of legacy code is as difficult as
+rewriting the entire thing. But management doesn't think that.
+ -- Joe Armstrong
+
+The notion that you can have data consistent in two different places
+break the laws of physics (causality). Despite this fact, we build
+systems with 2PC and forget about it.
+ -- Joe Armstrong
+
+The key to a design methodology is being able to split computations 
+into completely independent parts. If you manage to solve your problem
+by dividing it into independent parts, you can get both fault tolerance
+and scalability. I don't agree [...] that you can either get fault
+tolerance or scalability. You can only get both or none of them.
+ -- Joe Armstrong
+
+When I learnt programming, everybody said we should have defensive
+programming, we should check our arguments all the time. Defensive
+programming in C is only necessary because you have a single thread of
+computation. If you have a sequential language and it crashes, you've
+lost everything.
+ -- Joe Armstrong
+
+The process approach to fault isolation advocates that the process 
+software be fail-fast. It should either function correctly or it should 
+detect the fault, signal failure and stop operating.
+ -- Jim Gray
+
+I really disagree with Postel's principle. [...] You shouldn't be 
+lenient with your inputs. If your inputs are completely cracked you 
+should just stop immediatly.
+ -- Joe Armstrong
+
+History and debugging are both about uncovering causality from precedence.
+ -- Gérard Berry
+
+If you think that time is sequence, you lose half of the game.
+ -- Gérard Berry
+
+There are two opposite ways to build systems: hack them, test them, and 
+hope they work, or think about them and use well-defined tools.
+ -- Gérard Berry
+
+Anything added dilutes everything else.
+ -- GitHub Zen
+
+I get grumpy and mad and frustrated reading poor quality patches all 
+the time. [...] If you didn't get angry and mad and frustrated, that 
+means you don't care about the end result, and are doing something 
+wrong.
+ -- Greg Kroah-Hartman
+
+To me, the fundamental outcome of research is understanding, and the 
+fundamental outcome of engineering is a product.
+ -- Fred Baker
+
+Don’t ever make the mistake [of thinking] that you can design something 
+better than what you get from ruthless massively parallel 
+trial-and-error with a feedback cycle. That’s giving your intelligence 
+much too much credit.
+ -- Linus Torvalds
+
+[Saying] "the brain is not a computer" [is] akin to saying "applesauce 
+is not an apple." Technically that statement is true, but you can make 
+applesauce from an apple. Perhaps more to the point, it is like saying 
+"computers are not word processors". [A] computer can become a brain if 
+it is running brain software.
+ -- Ray Kurzweil
+
+We each need a leap of faith as to what and who is conscious, and who 
+and what we are as conscious beings. Otherwise we could not get up in 
+the morning. But we should be honest about the fundamental need for a 
+leap of faith in this matter and self-reflective as to what our own 
+particular leap involves.
+ -- Ray Kurzweil
+
+There's a reason computer history is a hobby of mine, I want to know 
+_why_ we do things.
+ -- Rob Landley
+
+What moved a lot of engineers into product is frustration with the 
+silliness. [...] I was really excited because I thought agile was a 
+revolution by the developers to stop the insanity. Unfortunately, I 
+think the business types outsmarted all of us. They basically pushed a 
+spec into the basement and said: "You know, you can do your standups, 
+you can have fun, do whatever you want! But here's your roadmap." [...] 
+And it is true that [most agile teams] move a little faster, but the 
+results don't get better.
+ -- Marty Cagan
+
+After folding my first company (at 25), I did a retrospective and 
+counted 32 different projects — most of them, whole new products or 
+product variations — I’d started (and almost never completed) in the 
+prior year. I realized this may have had something to do with my 
+failure.
+ -- Ev Williams
+
+When it comes to writing code, the number one most important skill is 
+how to keep a tangle of features from collapsing under the weight of 
+its own complexity.
+ -- James Hague
+
+OH: "Yes, it's flexible. Like rope."
+ -- Brad Fitzpatrick
+
+Merely adding features does not make it easier for users to do things, 
+it just makes the manual thicker.
+ -- Pike & Kernighan (Program design in the UNIX environment)
+
+First you learn the value of abstraction, then you learn the cost of 
+abstraction, then you're ready to engineer.
+ -- Kent Beck
+
+Originally I was going to program twttr in Python, C, & Ocaml. But, I 
+got @florian who was a core contributor to Ruby on Rails.
+ -- Jack Dorsey
+
+Humans fundamentally understand atomicity. [...] They understand that 
+the state of the world is always changing and they deal with it. [...] 
+People who are not technical are smarter than we give them credit for. 
+They understand the nature of the world is that there are not as many 
+guarantees in a lot of things that they do, and they are forgiving of 
+certain kinds of errors.
+ -- Camille Fournier
+
+How many of you [wouldn't] want to hire someone on their team if they 
+didn't know the [framework] magic already?
+ -- Greg Young
+
+I have witnessed numerous occasions where an inordinately expensive 
+query was made 8-times faster by parallelizing... where the trivial 
+refactoring into a slimmed down algorithm with proper data structures 
+would have speed the code up by 100-fold. Parallelizing a piggy piece 
+of code to make it faster merely uses more of the machine to get the 
+same job done, and will negatively impact power, resource management, 
+and utilization.
+ -- Joe Duffy
+
+An escalator can never break: it can only become stairs. You should 
+never see an Escalator Temporarily Out Of Order sign, just Escalator 
+Temporarily Stairs. Sorry for the convenience.
+ -- Mitch Hedberg, stand-up comedian
+
+Software is a gas. It expands to fill its container.
+ -- Nathan Myhrvold's Law on bloat
+
+Hardware is like milk: you want the freshest possible. Software is like
+wine, it becomes better with age.
+ -- Paul Mockapetris
+
+Design is a funny word. Some people think design means how it looks. 
+But of course, if you dig deeper, it's really how it works.
+ -- Steve Jobs
+
+N'attendre de l’État que deux choses : liberté, sécurité, et bien voir 
+qu'on ne saurait, au risque de les perdre toutes deux, en demander une 
+troisième.
+ -- Frédéric Bastiat
+
+Does comment on taste belong in a discussion of history? I think so. 
+Unix was born of a taste for achieving big power by small means rather 
+than by unbounded accumulation of facilities. But evolution, including 
+the evolution of Unix, does not work that way. An interesting question 
+is how the corrective of taste manages ever to recenter the exuberance 
+of evolution. The birth of Unix shows it can happen. When will it 
+happen again?
+ -- Doug McIlroy
+
+That's what a professional does: a professional takes the risk on what 
+they know must be done.
+ -- Uncle Bob Martin
+
+Les socialistes croient à deux choses qui sont absolument 
+contradictoires : la liberté et l'organisation.
+ -- Elie Halévy
+
+Le socialisme est le fantastique frère cadet du despotisme presque 
+défunt, dont il veut recueillir l’héritage ; ses efforts sont donc, au 
+sens le plus profond, réactionnaires.
+ -- Nietzsche
+
+Les socialistes ont eu tort de venir au pouvoir. Ils auraient dû faire 
+comme Dieu : ne jamais se montrer pour qu'on continue à y croire.
+ -- Coluche
+
+Probably nothing has done so much harm to the liberal cause as the 
+wooden insistence of some liberals on certain rules of thumb, above all 
+the principle of laissez-faire capitalism.
+ -- Hayek
+
+ If you build someone a fire, you'll keep them warm for a night. If you 
+set someone on fire, you'll keep them warm for the rest of their life.
+ -- Terry Pratchett
+
+Alas! the day cometh when man shall no longer shoot the arrow of his 
+desire beyond man, when his bowstring shall have forgotten its use! I 
+say unto you: a man must have chaos yet within him to be able to give 
+birth to a dancing star.
+ -- Nietzsche
+
+The problem, Bernard, is that what you and I do is so complicated. We 
+practice witchcraft. [...] William of Occam was a 13th century monk. He 
+can't help us now, Bernard. He would have burned us at the stake.
+ -- Dr. Robert Ford, Westworld
+
+Object-oriented programming offers a sustainable way to write spaghetti 
+code. It lets you accrete programs as a series of patches. Large 
+organizations always tend to develop software this way, and I expect 
+this to be as true in a hundred years as it is today.
+ -- Paul Graham
+
+The most profound technologies are those that disappear. They weave 
+themselves into the fabric of everyday life until they are 
+indistinguishable from it.
+ -- Marc Weiser, Xerox Parc
+
+I'm more inclined to work with someone who wants to build a company of 
+the right size than with someone who wants to build the right thing.
+ -- Michael Bernstein
+
+Why do people keep thinking that having awesome support is the best 
+option? *Not needing support in the first place* is the best option. 
+Having support doesn't solve the time spent, blocking time wasted, etc. 
+That's time I can't get back. I want your thing to just work.
+ -- Nick Craver
+
+Universal step 1 of becoming an awesome <insert profession>: care.
+ -- Nick Craver
+
+The best argument against democracy is a five-minute conversation with 
+the average voter.
+ -- Winston Churchill
+
+Contrary to popular belief, Unix is user friendly. It just happens to 
+be very selective about who it decides to make friends with.
+ -- Unknown Author
+
+A firewall is the simplest, most effective means to secure a database. 
+Sounds complicated, but it’s so easy a government agent could do it.
+ -- DataStax
+
+The older I get, the less I care about making tech decisions right and 
+the more I care about retaining the ability to change a wrong one.
+ -- David Brady
+
+Complex algorithms are used only if their complexity can be localized.
+ -- Ken Thompson (on Unix kernel)
+
+Modern invention has been a great leveller. A machine may operate far 
+more quickly than a political or economic measure to abolish privilege 
+and wipe out the distinctions of class or finance.
+ -- Ivor Brown
+
+The key to performance is elegance, not battalions of special cases.
+ -- Jon Bentley and Doug McIlroy
+
+There is no compression algorithm for experience.
+ -- Werner Vogels (about Amazon hiring engineers in their 60s)
+
+The meaning of my work is the motivation that is of the purest – money. 
+What I did for Playboy is very good and your payment is equal to the 
+task.
+ -- Salvador Dali
+
+Machine learning is like money laundering for bias.
+ -- Maciej Ceglowski
+
+Anyone who has ever debugged programs in both compiled and interpreted 
+languages (e.g., C versus Java) knows they are miles apart. A good VM 
+makes the language safe, in the sense that errors can always be 
+understood in terms of the language itself, not in term of the 
+underlying machine (e.g., segmentation fault).
+ -- Roberto Ierusalimschy
+
+This is a two-way street. The implementation has a huge impact on the 
+[design of the software]: we should not design what we cannot implement 
+efficiently.
+ -- Roberto Ierusalimschy
+
+There is a difference between designing in a way that allows for future 
+change and attempting to predict the future. [...] Code should be 
+designed based on what you know now, not on what you think will happen 
+in the future.
+ -- Max Kanat-Alexander
+
+Nearly all decisions in software design reduce entirely to measuring 
+the future value of a change versus its effort of maintenance. [...] It 
+is more important to reduce the effort of maintenance than it is to 
+reduce the effort of implementation.
+ -- Max Kanat-Alexander
+
+Comments should explain why the code is doing something, not what it is 
+doing.
+ -- Max Kanat-Alexander
+
+When presented with complexity, ask: “What problem are you trying to 
+solve?”
+ -- Max Kanat-Alexander
+
+
+My rule of thumb was when a problem was occurring at least 50 times a 
+day, it was time to solve it more holistically. [...] If you don’t 
+solve problems manually first, you could lose crucial insights into 
+what’s causing a problem and why.
+ -- Jonathan Golden
+
+From Ruby to Mongo, MySQL to Node successful open source is usually the 
+fun and easy thing to get started with.
+ -- Peter van Hardenberg‏
+
+Make sure you know what's inside the box before trying to think outside 
+of it.
+ -- @iamdevloper
+
+We think awful code is written by awful devs. But in reality, it's 
+written by reasonable devs in awful circumstances.
+ -- Sarah Mei
+
+The benefit of dependencies is inversely proportional to the amount of 
+effort spent on a software project.
+ -- Eli Bendersky
+
+The work of engineers used to be about taking small parts that they 
+understood entirely and using simple techniques to compose them into 
+larger things that do what they want. But programming now isn't so much 
+like that. Nowadays you muck around with incomprehensible or 
+nonexistent man pages for software you don't know who wrote. You have 
+to do basic science on your libraries to see how they work, trying out 
+different inputs and seeing how the code reacts. This is a 
+fundamentally different job.
+ -- Gerald Sussman
+
+- What happened (what were the symptoms)?
+- What did we do as an immediate workaround?
+- What was the damage (and what do we need to do to make up for it)?
+- What do we have to do to ensure it never happens again?
+ -- Ian Rogers
+
+Work in complex systems is bounded by three types of constraints: 
+economic, workload and safety.
+If you're going to make something cheaper, you're going to make people 
+work harder or less safely.
+ -- Jens Rasmussen (original) + Adrian Cockroft (translation)
+
+The only thing you learn from releasing a mediocre product early is 
+that people don't like mediocre products.
+ -- A Pinterest founder (on MVPs)
+
+Core memory wiped out competing technologies (Williams tube, mercury 
+delay line, etc) almost instantly and ruled for over twent years. Yet 
+late in his life Forrester told me that the Whirlwind-connected 
+invention he was most proud of was marginal testing: running the 
+voltage up and down once a day to cause shaky vacuum tubes to fail 
+during scheduled maintenance rather than randomly during operation. And 
+indeed Wirlwind racked up a notable record of reliability.
+ -- Doug McIlroy
+
+"Would you rather fight one 800lb gorilla or 800 1lb gorillas that 
+trust you as their parent?" is the interview question that determines 
+whether you're an IC or an engineering manager.
+ -- Cliff Moon
+
+On the NPM website, they say: "What can you make with 700,000 building 
+blocks?" and to me it's like: "What can you make with 10,000 kitchens?"
+ -- Evan Czaplicki
+
+Don't give your users what they ask for, give them what they want.
+ -- Tom Preston-Werner (@mojombo)
+
+So as far as I'm concerned, the discussion is about "how to work 
+together DESPITE people being different". Not about trying to make 
+everybody please each other. [...] Do you think you might be interested 
+in *that* kind of discussion instead of the "you are abusing me" kind 
+of discussion? [...] Because if you want me to "act professional", I 
+can tell you that I'm not interested. I'm sitting in my home office 
+wearign a bathrobe. The same way I'm not going to start wearing ties, 
+I'm *also* not going to buy into the fake politeness, the lying, the 
+office politics and backstabbing, the passive aggressiveness, and the 
+buzzwords. Because THAT is what "acting professionally" results in: 
+people resort to all kinds of really nasty things because they are 
+forced to act out their normal urges in unnatural ways.
+ -- Linus Torvalds (to Sarah Sharp)
+
+The world would be a better place if more engineers, like me, hated 
+technology. The stuff I design, if I'm successful, nobody will ever 
+notice. Things will just work, and be self-managing.
+ -- Radia Perlman
+
+Un programme ML est essentiellement une suite de définitions récursives 
+d’ordre supérieur sur des algèbres initiales, et peut donc prétendre 
+sans honte au statut de développement mathématique. En fait, 
+programmer, c’est juste faire des mathématiques plus précises que 
+d’habitude !
+ -- Gérard Huet
