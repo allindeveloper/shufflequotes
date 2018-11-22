@@ -142,7 +142,7 @@ class Example extends REST_Controller {
 
     public function quotes_get(){
         
-        $message = [$this->QuotesModel->getAll($data)];
+        $message = [$this->QuotesModel->getAll()];
         $this->set_response($message, REST_Controller::HTTP_OK);
 
     }
