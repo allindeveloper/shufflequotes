@@ -8,8 +8,10 @@ class QuotesModel extends CI_Model{
      }
 
      public function getAll(){
-         $result = $this->db->get("quotes");
-         return $result->result_array();
+        $this->db->order_by('rand()');
+        $this->db->limit(1);
+        $query = $this->db->get('quotes');
+       return $query->result_array();
      }
 
 }
