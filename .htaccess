@@ -12,8 +12,5 @@
     RewriteCond %{REQUEST_METHOD} !POST 
     RewriteRule ^(.*[^/])$ $1/ [L,R=301]
 
-    RewriteRule ^(.*)$ ./index.php/$1 [L,QSA]
+    RewriteRule ^(.*)$ ./index.php/$1 [L]
 
-    AllowOverride All
-   Order allow,deny
-   Allow from all
