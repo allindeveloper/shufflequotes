@@ -17,6 +17,7 @@ CodeIgniter version 3.1.9 or newer is recommended.
 To view random quotes [Get Quotes](https://shufflequotes.herokuapp.com/quotes/)
 
 To view a specific number of random quotes [Get Opt](https://shufflequotes.herokuapp.com/quotes/?id=2)
+
 Note: you can use particular number as id.
 
 ## Report security issues to our Security 
