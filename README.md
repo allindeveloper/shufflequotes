@@ -20,8 +20,8 @@ To view a specific number of random quotes [Get Opt](https://shufflequotes.herok
 
 Note: you can use particular number as id.
 
-## Report security issues to our Security 
-[uchendubozz@gmail.com](mailto:uchendubozz@gmail.com)
+## Security issues. 
+Send a mail to[uchendubozz@gmail.com](mailto:uchendubozz@gmail.com)
 
 ***************
 Acknowledgement
