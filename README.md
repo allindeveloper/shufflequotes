@@ -20,10 +20,10 @@ To view a specific number of random quotes [Get Opt](https://shufflequotes.herok
 Note: you can use particular number as id.
 
 ## Report security issues to our Security 
-[uchendubozz@gmail.com](mailto:uchendubozz@gmail.com.com)
+[uchendubozz@gmail.com](mailto:uchendubozz@gmail.com)
 
 ***************
 Acknowledgement
 ***************
 
-The ShuffleQuotes team would like to thank Uchendu Precious, Oyenuga Ebenezer, Akintude Oluwaseyi, Olalere Phillip for their committements to the Project
+The ShuffleQuotes team would like to thank [Uchendu Precious](mailto:uchendubozz@gmail.com), [Oyenuga Ebenezer](mailto:ebene1987@gmail.com), [Akintude Oluwaseyi](mailto:seyiboyvvu@gmail.com), [Olalere Phillip](mailto:olalerephilip@gmail.com) for their committements to the Project.
