@@ -38,7 +38,7 @@ class Example extends REST_Controller {
     public function quotes_get(){
         
         $id = $this->get('id');
-        $message = [$this->QuotesModel->getAll()];
+        $message = ['results'][$this->QuotesModel->getAll()];
         $val = [$this->QuotesModel->getOpt($id)];
         // If the id parameter doesn't exist return all the users
 
