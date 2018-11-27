@@ -10,14 +10,14 @@ class QuotesModel extends CI_Model{
      public function getAll(){
         $this->db->order_by('rand()');
         $this->db->limit(1);
-        $query = $this->db->get('quotes');
+        $query['quotes'] = $this->db->get('quotes');
        return $query->result_array();
      }
 
      public function getOpt($val){
         $this->db->order_by('rand()');
         $this->db->limit($val);
-        $query = $this->db->get('quotes');
+        $query['quotes'] = $this->db->get('quotes');
        return $query->result_array();
      }
 
