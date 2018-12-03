@@ -37,12 +37,15 @@ class Example extends REST_Controller {
 
     public function quotes_get(){
         
-        $id = $this->get('id');
-        $message = ['results'][$this->QuotesModel->getAll()];
-        $val = [$this->QuotesModel->getOpt($id)];
-        // If the id parameter doesn't exist return all the users
+        $count = $this->get('count');
+        // $message = [$this->QuotesModel->getAll()];
+        $message = array('quotes',$this->QuotesModel->getAll());
+        // $val = [$this->QuotesModel->getOpt($count)];
+        $val = array('quotes',$this->QuotesModel->getOpt($count));
 
-        if ($id === NULL)
+        // If the count parameter doesn't exist return all the users
+
+        if ($count === NULL)
         {
             // Check if the users data store contains users (in case the database result returns NULL)
             if ($message)
@@ -62,23 +65,23 @@ class Example extends REST_Controller {
 
         // Find and return a single record for a particular quote.
 
-        $id = (int) $id;
+        $count = (int) $count;
 
-        // Validate the id.
-        if ($id <= 0)
+        // Validate the count.
+        if ($count <= 0)
         {
-            // Invalid id, set the response and exit.
+            // Invalid count, set the response and exit.
             $this->response(NULL, REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
         }
 
-        // Get the quote from the array, using the id as key for retrieval.
+        // Get the quote from the array, using the count as key for retrieval.
         
         
         if (!empty($val))
         {
             foreach ($val as $key => $value)
             {
-                if (isset($value['id']) && $value['id'] === $id)
+                if (isset($value['count']) && $value['count'] === $count)
                 {
                     $val = $value;
                 }
