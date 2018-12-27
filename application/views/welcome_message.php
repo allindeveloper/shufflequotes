@@ -4,8 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<title>Shuffle Quotes API Reference | Getting Started</title>
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.css"/>
 
+	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/w3.css"/>
+
+	<!-- <link rel="stylesheet" media="screen" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" /> -->
 	<style type="text/css">
 
 	::selection { background-color: #E13300; color: white; }
@@ -68,21 +72,96 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+	<h1>Shuffle Quotes API Reference</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+	
+	
+  <p>Sample Request 'shufflequotes.herokuapp.com/api/quotes/get?count=2'</p>
+ <div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Endpoint</th>
+        <th>Method</th>
+        <th>Example</th>
+        <th>Sample Response</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><i>/api/v1/quotes</i></td>
+        <td class="badge w3-blue">GET</td>
+        <td>http://shufflequotes.herokuapp.com/api/quotes/get</td>
+        <td>
+<pre>
+[
+"quotes",
+	[
+	  {
+		"id": "4",
+		"content": "Simplicity is prerequisite for reliability",
+		"author": "Dijkstra",
+		"category": ""
+	  }
+	]
+]
+</pre>
+        </td>
+     
+      </tr>
+      <tr>
+        <td><i>/api/v1/quotes/?count=2</i></td>
+        <td class="badge w3-blue">GET</td>
+        <td>http://shufflequotes.herokuapp.com/api/quotes/get/?count=2</td>
+        <td>
+<pre>
+[
+"quotes",
+	[
+	  {
+		"id": "4",
+		"content": "Simplicity is prerequisite for reliability",
+		"author": "Dijkstra",
+		"category": ""
+	  },
+	  {
+		"id": "3",
+		"content": "When in doubt, use brute force.",
+		"author": "Ken Thompson",
+		"category": ""
+	  }
+	]
+]
+</pre>
+        </td>
+       
+      </tr>
+      <tr>
+        <td><i>/api/quotes/post</i></td>
+        <td class="badge w3-green">POST</td>
+        <td>http://shufflequotes.herokuapp.com/api/quotes/post</td>
+        <td>
+<pre>
+{
+  "content": "Hardwork Pays",
+  "Author": "Samuel Washington",
+  "cateogry": "Education"
+}
+</pre>
+        </td>
+       
+      </tr>
+      
+    </tbody>
+  </table>
+  </div>
+	
+	
+	
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'ShuffleQuotes API Version <strong>' . '1.0.0' . '</strong>' : '' ?></p>
 </div>
 
 </body>
