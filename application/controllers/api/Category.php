@@ -39,11 +39,9 @@ class Category extends REST_Controller {
     */
     public function get_get(){
         
-        $count = $this->get('count');
         $message = array('categories',$this->CategoryModel->getAll());
         
-        $val = array('categories',$this->CategoryModel->getOpt($count));
-
+        
         // If the count parameter doesn't exist return all the users
 
         if ($count === NULL)
@@ -59,21 +57,14 @@ class Category extends REST_Controller {
                 // Set the response and exit
                 $this->response([
                     'status' => FALSE,
-                    'message' => 'No quotes were found'
+                    'message' => 'No categories were found'
                 ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
             }
         }
 
         // Find and return a single record for a particular quote.
 
-        $count = (int) $count;
-
-        // Validate the count.
-        if ($count <= 0)
-        {
-            // Invalid count, set the response and exit.
-            $this->response(NULL, REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
-        }
+       
 
         // Get the quote from the array, using the count as key for retrieval.
         

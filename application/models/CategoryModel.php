@@ -9,7 +9,7 @@ class CategoryModel extends CI_Model{
      }
 
     
-     public function getAll($val){
+     public function getOpt($val){
         $this->db->order_by('rand()');
         $this->db->limit($val);
         $query = $this->db->get($this->table_name);
