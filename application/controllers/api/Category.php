@@ -69,20 +69,20 @@ class Category extends REST_Controller {
         // Get the quote from the array, using the count as key for retrieval.
         
         
-        if (!empty($val))
+        if (!empty($message))
         {
-            foreach ($val as $key => $value)
+            foreach ($message as $key => $value)
             {
                 if (isset($value['count']) && $value['count'] === $count)
                 {
-                    $val = $value;
+                    $message = $value;
                 }
             }
         }
 
-        if (!empty($val))
+        if (!empty($message))
         {
-            $this->set_response($val, REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
+            $this->set_response($message, REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
         }
         else
         {
