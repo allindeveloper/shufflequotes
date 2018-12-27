@@ -4,6 +4,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name = "keywords" content = "programming, shuffle, quotes, shufflequotes" />
+  <meta name = "description" content = "ShuffleQuotes API Reference. Feel free to preview, use, share and critic" />
+ 	<meta name = "author" content = "Uchendu Precious" />
 	<title>Shuffle Quotes API Reference | Getting Started</title>
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.css"/>
 
