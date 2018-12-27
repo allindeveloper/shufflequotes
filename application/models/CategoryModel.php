@@ -8,12 +8,14 @@ class CategoryModel extends CI_Model{
 		 $this->load->database();
      }
 
-     public function getAll(){
-       $query = $this->db->get($this->table_name);
+    
+     public function getAll($val){
+        $this->db->order_by('rand()');
+        $this->db->limit($val);
+        $query = $this->db->get($this->table_name);
        return $query->result_array();
      }
 
-  
 
 }
      
