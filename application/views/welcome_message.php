@@ -37,6 +37,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		margin: 0 0 14px 0;
 		padding: 14px 15px 10px 15px;
 	}
+	
+	pre{
+		color: white;
+		background-color: #102238;
+	}
 
 	code {
 		font-family: Consolas, Monaco, Courier New, Courier, monospace;
@@ -65,14 +70,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	#container {
 		margin: 10px;
 		border: 1px solid #D0D0D0;
-		box-shadow: 0 0 8px #D0D0D0;
+		box-shadow: 0 0 8px #D0D0D0;		
+    background-color: #dee8d0;
+
 	}
 	</style>
 </head>
 <body>
 
 <div id="container">
-	<h1>Shuffle Quotes API Reference</h1>
+	<h1><b>Shuffle Quotes API Reference</b></h1>
 
 	<div id="body">
 	
