@@ -94,7 +94,7 @@ class Category extends REST_Controller {
 
     }
 
-    function gettall_get(){
+    function getall_get(){
         $message = array('categories',$this->CategoryModel->getAll());
         
         
