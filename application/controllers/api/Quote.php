@@ -38,96 +38,160 @@ class Quote extends REST_Controller {
     /*
     * METHOD GET
     */
-    public function get_get(){
-        
-        $count = $this->get('count');
-        $category = $this->get('category');
-        $message = array('quotes',$this->QuotesModel->getAll());
-        
-        $val = array('quotes',$this->QuotesModel->getOpt($count));
-        $val2 = array('quotes',$this->QuotesModel->getByCategory($category));
 
-        // If the count parameter doesn't exist return all the users
-
-        if ($count === NULL && $category == NULL)
-        {
-            // Check if the users data store contains users (in case the database result returns NULL)
-            if ($message)
+    function get_get()
+    {
+       $quotes='';
+       
+            $data= array('quotes',$this->QuotesModel->getAll());
+            if(!empty($data))
             {
-                // Set the response and exit
-                $this->response($message, REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
+                $quotes=$data;
             }
             else
             {
-                // Set the response and exit
-                $this->response([
-                    'status' => FALSE,
-                    'message' => 'No quotes were found'
-                ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+                $this->response('No Such Church',REST_Controller::HTTP_NO_CONTENT);
+                exit;
             }
-        }
-
-        // Find and return a single record for a particular quote.
-
-        $count = (int) $count;
-
-        // Validate the count.
-        if ($count <= 0 && $category == NULL)
-        {
-            // Invalid count, set the response and exit.
-            $this->response(NULL, REST_Controller::HTTP_BAD_REQUEST); // BAD_REQUEST (400) being the HTTP response code
-        }
-
-        // Get the quote from the array, using the count as key for retrieval.
         
-        
-        if (!empty($val))
-        {
-            foreach ($val as $key => $value)
-            {
-                if (isset($value['count']) && $value['count'] === $count)
-                {
-                    $val = $value;
-                }
-            }
-        }
-        if (!empty($val2))
-        {
-            foreach ($val2 as $key => $value)
-            {
-                if (isset($value['count']) && $value['count'] === $count)
-                {
-                    $val2 = $value;
-                }
-            }
-        }
-
-        if (!empty($val))
-        {
-            $this->set_response($val, REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
-        }
-        else
-        {
-            $this->set_response([
-                'status' => FALSE,
-                'message' => 'Quote(s) could not be found'
-            ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
-        }
-
-
-        if (!empty($val2))
-        {
-            $this->set_response($val2, REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
-        }
-        else
-        {
-            $this->set_response([
-                'status' => FALSE,
-                'message' => 'Quote(s) could not be found'
-            ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
-        }
-
+        $this->response($quotes, REST_Controller::HTTP_OK);
     }
+
+    function BYCATEGORY_get(){
+        $category = $this->get('category');
+        $quotes='';
+        if(!empty($category))
+        {
+            $data=array('quotes',$this->QuotesModel->getByCategory($category));
+            if(!empty($data))
+            {
+               $quotes=$data;
+            }
+            else
+            {
+                $this->response('No Such Quote',REST_Controller::HTTP_NO_CONTENT);
+                exit;
+            }
+        }
+        else
+        {
+            $data=array('quotes',$this->QuotesModel->getAll());
+            if(!empty($data))
+            {
+                $quotes=$data;
+            }
+            else
+            {
+                $this->response('No Such Church',REST_Controller::HTTP_NO_CONTENT);
+                exit;
+            }
+        }
+        $this->response($quotes, REST_Controller::HTTP_OK);
+    }
+    function BYCOUNT_get(){
+        $count = $this->get('count');
+        $quotes='';
+        $intcount = (int) $count;
+        if($intcount < 0){
+            $this->set_response([
+                'status' => FALSE,
+                'message' => 'Quote(s) could not be found'
+            ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+        }else{
+        if(!empty($count))
+        {
+            $data=array('quotes',$this->QuotesModel->getOpt($count));
+            if(!empty($data))
+            {
+               $quotes=$data;
+            }
+            else
+            {
+                $this->response('No Such Quote',REST_Controller::HTTP_NO_CONTENT);
+                exit;
+            }
+        }
+        else
+        {
+            $data= array('quotes',$this->QuotesModel->getAll());
+            if(!empty($data))
+            {
+                $quotes=$data;
+            }
+            else
+            {
+                $this->response('No Such Church',REST_Controller::HTTP_NO_CONTENT);
+                exit;
+            }
+        }
+        $this->response($quotes, REST_Controller::HTTP_OK);
+    }
+    }
+    // public function get_get($count, $category){
+    //     $count = $this->get('count');
+    //     $category = $this->get('category');
+    //     $quotes='';
+       
+    //     if(empty($category) && empty($count))
+    //     {
+    //         $data= array('quotes35',$this->QuotesModel->getAll());
+    //         if(!empty($data))
+    //         {
+    //            $quotes=[$data];
+    //         }
+    //         else
+    //         {
+    //             $this->set_response([
+    //                 'status' => FALSE,
+    //                 'message' => 'Quote(s) could not be found'
+    //             ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+    //             exit;
+    //         }
+    //     }
+    //     else if(!empty($category) && empty($count)){
+            
+    //         $data= array('quotes',$this->QuotesModel->getByCategory($category));
+    //         if(!empty($data))
+    //         {
+    //            $quotes=[$data];
+    //         }
+    //         else
+    //         {
+    //             $this->set_response([
+    //                 'status' => FALSE,
+    //                 'message' => 'Quote(s) could not be found'
+    //             ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+    //             exit;
+    //         }
+    //     }
+    //     else if(!empty($count) && empty($category)){
+    //         $intcount = (int) $count;
+    //         if ($intcount < 0 )
+    //         {
+    //             $this->set_response([
+    //                 'status' => FALSE,
+    //                 'message' => 'Quote(s) could not be found'
+    //             ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+    //             exit;
+    //         }else{
+    //         $data= array('quotes33',$this->QuotesModel->getOpt($count));
+    //         if(!empty($data))
+    //         {
+    //            $quotes=[$data];
+    //         }
+    //         else
+    //         {
+    //             $this->set_response([
+    //                 'status' => FALSE,
+    //                 'message' => 'Quote(s) could not be found'
+    //             ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+    //             exit;
+    //         }
+    //     }
+    //     }
+      
+    //     $this->set_response($quotes, REST_Controller::HTTP_OK);
+    // }
 
      /*
     * METHOD POST

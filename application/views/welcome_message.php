@@ -121,9 +121,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
      
       </tr>
       <tr>
-        <td><i>/api/quote/get/?count=2</i></td>
+        <td><i>/api/quote/bycount?count=2</i></td>
         <td class="badge w3-blue">GET</td>
-        <td>http://shufflequotes.herokuapp.com/api/quote/get/?count=2</td>
+        <td>http://shufflequotes.herokuapp.com/api/quote/bycount?count=2</td>
         <td>
 <pre>
 [
@@ -148,9 +148,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
        
 			</tr>
 			<tr>
-        <td><i>/api/quote/get?category=Ability</i></td>
+        <td><i>/api/quote/bycategory=Ability</i></td>
         <td class="badge w3-blue">GET</td>
-        <td>http://shufflequotes.herokuapp.com/api/quote/get?category=Ability</td>
+        <td>http://shufflequotes.herokuapp.com/api/quote/bycategory=Ability</td>
         <td>
 <pre>
 [
