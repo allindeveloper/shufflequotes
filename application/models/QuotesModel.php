@@ -21,6 +21,13 @@ class QuotesModel extends CI_Model{
         $query = $this->db->get($this->table_name);
        return $query->result_array();
      }
+     public function getByCategory($val){
+        $this->db->order_by('rand()');
+        $this->db->limit(1);
+        $this->db->where(array('category'=>$val));
+        $query = $this->db->get($this->table_name);
+       return $query->result_array();
+     }
 
      function add($data)
     {

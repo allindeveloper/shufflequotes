@@ -90,7 +90,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </thead>
     <tbody>
       <tr>
-        <td><i>/api/v1/quote</i></td>
+        <td><i>/api/quote/get</i></td>
         <td class="badge w3-blue">GET</td>
         <td>http://shufflequotes.herokuapp.com/api/quote/get</td>
         <td>
@@ -111,7 +111,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
      
       </tr>
       <tr>
-        <td><i>/api/v1/quote/?count=2</i></td>
+        <td><i>/api/quote/get/?count=2</i></td>
         <td class="badge w3-blue">GET</td>
         <td>http://shufflequotes.herokuapp.com/api/quote/get/?count=2</td>
         <td>
@@ -134,7 +134,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	]
 ]
 </pre>
-        </td>
+    </td>
        
       </tr>
       <tr>
