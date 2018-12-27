@@ -77,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div id="body">
 	
 	
-  <p>Sample Request 'shufflequotes.herokuapp.com/api/quotes/get?count=2'</p>
+  <p>Sample Request 'shufflequotes.herokuapp.com/api/quote/get?count=2'</p>
  <div class="table-responsive">
   <table class="table">
     <thead>
@@ -90,13 +90,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </thead>
     <tbody>
       <tr>
-        <td><i>/api/v1/quotes</i></td>
+        <td><i>/api/v1/quote</i></td>
         <td class="badge w3-blue">GET</td>
-        <td>http://shufflequotes.herokuapp.com/api/quotes/get</td>
+        <td>http://shufflequotes.herokuapp.com/api/quote/get</td>
         <td>
 <pre>
 [
-"quotes",
+"quote",
 	[
 	  {
 		"id": "4",
@@ -111,13 +111,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
      
       </tr>
       <tr>
-        <td><i>/api/v1/quotes/?count=2</i></td>
+        <td><i>/api/v1/quote/?count=2</i></td>
         <td class="badge w3-blue">GET</td>
-        <td>http://shufflequotes.herokuapp.com/api/quotes/get/?count=2</td>
+        <td>http://shufflequotes.herokuapp.com/api/quote/get/?count=2</td>
         <td>
 <pre>
 [
-"quotes",
+"quote",
 	[
 	  {
 		"id": "4",
@@ -138,9 +138,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
        
       </tr>
       <tr>
-        <td><i>/api/quotes/post</i></td>
+        <td><i>/api/quote/post</i></td>
         <td class="badge w3-green">POST</td>
-        <td>http://shufflequotes.herokuapp.com/api/quotes/post</td>
+        <td>http://shufflequotes.herokuapp.com/api/quote/post</td>
         <td>
 <pre>
 {
