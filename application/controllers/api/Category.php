@@ -39,7 +39,7 @@ class Category extends REST_Controller {
     */
     public function get_get(){
         
-        $message = array('categories',$this->CategoryModel->getAll());
+        $message = array('categories',$this->CategoryModel->getRand());
         
         
         // If the count parameter doesn't exist return all the users
@@ -92,6 +92,61 @@ class Category extends REST_Controller {
             ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
         }
 
+    }
+
+    function gettall_get(){
+        $message = array('categories',$this->CategoryModel->getAll());
+        
+        
+        // If the count parameter doesn't exist return all the users
+
+        if ($count === NULL)
+        {
+            // Check if the users data store contains users (in case the database result returns NULL)
+            if ($message)
+            {
+                // Set the response and exit
+                $this->response($message, REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
+            }
+            else
+            {
+                // Set the response and exit
+                $this->response([
+                    'status' => FALSE,
+                    'message' => 'No categories were found'
+                ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+            }
+        }
+
+        // Find and return a single record for a particular quote.
+
+       
+
+        // Get the quote from the array, using the count as key for retrieval.
+        
+        
+        if (!empty($message))
+        {
+            foreach ($message as $key => $value)
+            {
+                if (isset($value['count']) && $value['count'] === $count)
+                {
+                    $message = $value;
+                }
+            }
+        }
+
+        if (!empty($message))
+        {
+            $this->set_response($message, REST_Controller::HTTP_OK); // OK (200) being the HTTP response code
+        }
+        else
+        {
+            $this->set_response([
+                'status' => FALSE,
+                'message' => 'Quote(s) could not be found'
+            ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+        }
     }
 
     

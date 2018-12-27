@@ -127,71 +127,7 @@ class Quote extends REST_Controller {
         $this->response($quotes, REST_Controller::HTTP_OK);
     }
     }
-    // public function get_get($count, $category){
-    //     $count = $this->get('count');
-    //     $category = $this->get('category');
-    //     $quotes='';
-       
-    //     if(empty($category) && empty($count))
-    //     {
-    //         $data= array('quotes35',$this->QuotesModel->getAll());
-    //         if(!empty($data))
-    //         {
-    //            $quotes=[$data];
-    //         }
-    //         else
-    //         {
-    //             $this->set_response([
-    //                 'status' => FALSE,
-    //                 'message' => 'Quote(s) could not be found'
-    //             ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
-    //             exit;
-    //         }
-    //     }
-    //     else if(!empty($category) && empty($count)){
-            
-    //         $data= array('quotes',$this->QuotesModel->getByCategory($category));
-    //         if(!empty($data))
-    //         {
-    //            $quotes=[$data];
-    //         }
-    //         else
-    //         {
-    //             $this->set_response([
-    //                 'status' => FALSE,
-    //                 'message' => 'Quote(s) could not be found'
-    //             ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
-    //             exit;
-    //         }
-    //     }
-    //     else if(!empty($count) && empty($category)){
-    //         $intcount = (int) $count;
-    //         if ($intcount < 0 )
-    //         {
-    //             $this->set_response([
-    //                 'status' => FALSE,
-    //                 'message' => 'Quote(s) could not be found'
-    //             ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
-    //             exit;
-    //         }else{
-    //         $data= array('quotes33',$this->QuotesModel->getOpt($count));
-    //         if(!empty($data))
-    //         {
-    //            $quotes=[$data];
-    //         }
-    //         else
-    //         {
-    //             $this->set_response([
-    //                 'status' => FALSE,
-    //                 'message' => 'Quote(s) could not be found'
-    //             ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
-    //             exit;
-    //         }
-    //     }
-    //     }
-      
-    //     $this->set_response($quotes, REST_Controller::HTTP_OK);
-    // }
+   
 
      /*
     * METHOD POST
