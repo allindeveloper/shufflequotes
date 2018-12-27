@@ -136,6 +136,46 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </pre>
     </td>
        
+			</tr>
+			<tr>
+        <td><i>/api/quote/get?category=Ability</i></td>
+        <td class="badge w3-blue">GET</td>
+        <td>http://shufflequotes.herokuapp.com/api/quote/get?category=Ability</td>
+        <td>
+<pre>
+[
+"quote",
+	[
+	  {
+		"id": "4",
+		"content": "Simplicity is prerequisite for reliability",
+		"author": "Dijkstra",
+		"category": "Ability"
+	  }
+	]
+]
+</pre>
+        </td>
+     
+      </tr>
+			<tr>
+        <td><i>/api/category/get</i></td>
+        <td class="badge w3-blue">GET</td>
+        <td>http://shufflequotes.herokuapp.com/api/category/get</td>
+        <td>
+<pre>
+[
+"categories",
+	[
+	  {
+		"category_id": "1",
+		"name": "Game"
+	  }
+	]
+]
+</pre>
+        </td>
+     
       </tr>
       <tr>
         <td><i>/api/quote/post</i></td>
